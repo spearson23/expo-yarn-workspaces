@@ -1,0 +1,10 @@
+{
+  "name": "dummy",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "immutable": "^3.8.2"
+  }
+}

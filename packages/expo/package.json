@@ -1,0 +1,21 @@
+{
+  "name": "expo",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "expo": "^27.0.1",
+    "immutable": "^3.8.2",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-27.0.0.tar.gz"
+  },
+  "workspaces": {
+    "nohoist": [
+      "react-native",
+      "react-native/**",
+      "expo",
+      "expo/**"
+    ]
+  }
+}
